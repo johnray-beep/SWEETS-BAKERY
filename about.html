@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Delicious Bakery</title>
+    <link rel="stylesheet" href="stye.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+
+    <style>
+         .navbar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+        background: transparent;
+        transition: background 0.3s ease-in-out, backdrop-filter 0.3s ease-in-out;
+    }
+
+    .navbar.scrolled {
+        background: rgba(255, 255, 255, 0.7); 
+        backdrop-filter: blur(10px); 
+        -webkit-backdrop-filter: blur(10px); 
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+        .about-section {
+            flex: 1;
+            margin-top: 120px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .about-container {
+            background:#fccfdf;
+            padding: 30px;
+            border-radius: 12px;
+            max-width: 900px;
+            width: 100%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+        }
+
+        .about-container h2 {
+            color: #5a3e2b;
+        }
+
+        .about-container p {
+            color: #333;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .about-container img {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+
+        footer {
+            background: rgba(255, 255, 255, 0.9);
+            text-align: center;
+            padding: 10px 0;
+            margin-top: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="14Oct24 Nazzasi Free Upload .png"
+                        class="rounded-circle" alt="Logo">
+                </a>
+
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item btn btn-outline-dark mx-1"><a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item btn btn-outline-dark mx-1"><a class="nav-link" href="menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item btn btn-outline-dark mx-1"><a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item btn btn-outline-dark mx-1"><a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item btn btn-outline-dark mx-1"><a class="nav-link"
+                                href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="about-section">
+        <div class="about-container">
+            <h2>Our Story</h2>
+            <p>Welcome to <strong>Sweets Bakery</strong>, a place where passion meets perfection. Since 2015, we have
+                been dedicated to crafting fresh, homemade baked goods with the finest ingredients. Our journey began
+                with a love for baking and a dream to share the joy of homemade treats with our community.</p>
+            <img src="in.jpg" alt="Bakery Interior">
+        </div>
+
+        <div class="about-container">
+            <h2>Our Ingredients</h2>
+            <p>We believe that great taste starts with great ingredients. That’s why we source the freshest,
+                high-quality ingredients to bring you delicious pastries, breads, and cakes. No artificial additives,
+                just pure goodness in every bite.</p>
+        </div>
+
+        
+        </div>
+
+        <div class="about-container">
+            <h2>Our Commitment</h2>
+            <p>At Sweets Bakery, we are committed to providing freshly baked goods made with love and care. Our goal
+                is to create an unforgettable experience for our customers with every visit.</p>
+            <p>Join us on our journey as we continue to spread happiness through our baking!</p>
+        </div>
+    </section>
+
+    <footer style="background-color: #f8f3ed; color: #5a3e36; padding: 20px 0; font-size: 14px;">
+        <div class="container text-center">
+          <div class="mb-3">
+            <a href="index.html" class="text-decoration-none" style="color:#5a3e36; font-weight:bold; font-size:18px;">Sweets Bakery</a>
+            <p style="margin-top:8px;">Baked fresh daily with love and the finest ingredients.</p>
+          </div>
+          
+          <div class="d-flex justify-content-center mb-3" style="gap: 15px;">
+            <a href="menu.html" class="text-decoration-none" style="color:#5a3e36;">Menu</a>
+            <a href="about.html" class="text-decoration-none" style="color:#5a3e36;">About</a>
+            <a href="contact.html" class="text-decoration-none" style="color:#5a3e36;">Contact</a>
+            <a href="blog.html" class="text-decoration-none" style="color:#5a3e36;">Blog</a>
+          </div>
+      
+          <div class="d-flex justify-content-center mb-3" style="gap: 10px;">
+            <a href="#"><ion-icon name="logo-facebook" style="font-size:20px; color:#5a3e36;"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-instagram" style="font-size:20px; color:#5a3e36;"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-twitter" style="font-size:20px; color:#5a3e36;"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-pinterest" style="font-size:20px; color:#5a3e36;"></ion-icon></a>
+          </div>
+      
+          <div style="font-size:12px; color:#9c7c6a;">
+            © 2025 Sweets Bakery | Made with 🧡
+          </div>
+        </div>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+      <script>
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) { // adjust 50px if needed
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+    
+</body>      
+
+</html>
